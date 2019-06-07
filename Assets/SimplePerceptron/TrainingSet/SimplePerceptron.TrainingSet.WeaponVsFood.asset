@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c57908664ffb04cbefd36ae5118a1e, type: 3}
+  m_Name: SimplePerceptron.TrainingSet.WeaponVsFood
+  m_EditorClassIdentifier: 
+  m_Entries:
+  - m_EntryName: Croissant
+    m_Inputs:
+    - 0.5
+    - 1
+    m_Output: 1
+  - m_EntryName: Burger
+    m_Inputs:
+    - 0
+    - 0.8
+    m_Output: 1
+  - m_EntryName: Strawberry
+    m_Inputs:
+    - 0.2
+    - 1
+    m_Output: 1
+  - m_EntryName: Cupcake
+    m_Inputs:
+    - 0.1
+    - 0.5
+    m_Output: 1
+  - m_EntryName: Fries
+    m_Inputs:
+    - 0.3
+    - 0.5
+    m_Output: 1
+  - m_EntryName: Cutlet
+    m_Inputs:
+    - 0.3
+    - 0.8
+    m_Output: 1
+  - m_EntryName: Carrot
+    m_Inputs:
+    - 0.5
+    - 0.9
+    m_Output: 1
+  - m_EntryName: Pineapple
+    m_Inputs:
+    - 0.8
+    - 1
+    m_Output: 1
+  - m_EntryName: Numchunk
+    m_Inputs:
+    - 0.1
+    - 0
+    m_Output: 0
+  - m_EntryName: Bow
+    m_Inputs:
+    - 0.5
+    - 0.3
+    m_Output: 0
+  - m_EntryName: Stick
+    m_Inputs:
+    - 0.6
+    - 0.3
+    m_Output: 0
+  - m_EntryName: Sword
+    m_Inputs:
+    - 0.6
+    - 0.1
+    m_Output: 0
+  - m_EntryName: Axe
+    m_Inputs:
+    - 0.7
+    - 0
+    m_Output: 0
+  - m_EntryName: Kunai
+    m_Inputs:
+    - 0.9
+    - 0
+    m_Output: 0
